@@ -1,0 +1,26 @@
+.blog--section {
+  background: var(--bg-about);
+  padding: 6rem 0 3rem;
+}
+.blog--flex {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.blog--info ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  width: 80%;
+}
+.blog--info > ul > li:first-child {
+  margin-bottom: 2rem;
+}
+.blog--img {
+  width: 700px;
+  height: 551px;
+}
+.blog--img img {
+  width: 100%;
+  height: 100%;
+}

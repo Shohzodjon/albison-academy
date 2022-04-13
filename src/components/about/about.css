@@ -1,0 +1,32 @@
+.about--section {
+  width: 100%;
+  background: var(--bg-about);
+}
+.about--container {
+  padding: 10rem 0;
+}
+
+.about--flex {
+  display: flex;
+  align-items: center;
+  column-gap: 7rem;
+}
+.about--img {
+  width: 825px;
+}
+.about--img img {
+  width: 100%;
+}
+.about--info {
+  padding: 2rem 5rem;
+}
+.about--info h2 {
+  margin: 1.5rem 0;
+}
+.about--btn {
+  padding: 1.2rem 2.8rem;
+  margin: 2rem 0;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #fff;
+}

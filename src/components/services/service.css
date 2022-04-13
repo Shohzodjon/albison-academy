@@ -1,0 +1,19 @@
+.service--section {
+  background: var(--bg-about);
+  padding: 3rem 0;
+}
+.service--flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 3rem;
+}
+
+.service--cart {
+  background: #0f1623;
+  backdrop-filter: blur(200px);
+  border-radius: 10px;
+  display: inline-block;
+  width: 20%;
+  padding: 1rem 1.5rem;
+}

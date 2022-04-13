@@ -1,0 +1,48 @@
+.navbar {
+  width: 100%;
+  padding: 3.9rem 0;
+  background: var(--bg-nav);
+}
+.nav--flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.logo img {
+  width: 4.404rem;
+  height: 5.7rem;
+}
+.logo h3 {
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 3.1rem;
+  color: #3a68b8;
+}
+.nav--flex ul {
+  display: flex;
+  align-items: center;
+  column-gap: 4rem;
+}
+.nav--flex a {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: #ffffff;
+}
+.nav--btn {
+  padding: 1.4rem 2.8rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+.menu--icon i {
+  font-size: 2.5rem;
+  color: #fff;
+  display: none;
+}
