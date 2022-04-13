@@ -2,6 +2,7 @@
   width: 100%;
   background: var(--bg-home);
   padding-bottom: 1rem;
+  margin-top: 15rem;
 }
 .home--flex {
   display: flex;

@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/about/About";
 import BlogComponent from "./components/blog/Blog";
+
 import FooterComponent from "./components/contact/Footer";
 import Home from "./components/home/Home";
 import Nav from "./components/nav/Nav";

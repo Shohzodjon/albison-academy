@@ -59,6 +59,9 @@
   margin: 0.7rem 0;
   color: #3a68b8;
 }
+.footer--right-two {
+  padding-left: 0;
+}
 .footer--right-two li {
   display: flex;
   align-items: center;

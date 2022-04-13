@@ -2,6 +2,10 @@
   width: 100%;
   padding: 3.9rem 0;
   background: var(--bg-nav);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 222;
 }
 .nav--flex {
   display: flex;
