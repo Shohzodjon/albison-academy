@@ -45,8 +45,49 @@
   font-size: 1.6rem;
   line-height: 2.2rem;
 }
+.flex--box {
+  display: flex;
+  align-items: center;
+}
 .menu--icon i {
   font-size: 2.5rem;
   color: #fff;
   display: none;
 }
+.close--btn {
+  color: #fff;
+  font-size: 2.5rem;
+  display: none;
+}
+@media screen and (max-width: 920px) {
+  .nav--flex ul {
+    position: fixed;
+    top: 4.5rem;
+    right: 0;
+    flex-direction: column;
+    gap: 2rem;
+    width: 200px;
+    background: var(--bg-nav);
+    height: 100%;
+    padding: 1.5rem 3rem;
+    align-items: flex-start;
+    /* clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); */
+    transition: clip-path 0.4s linear;
+  }
+  .close--btn {
+    display: block;
+    position: fixed;
+    top: 4.3rem;
+    right: 2rem;
+  }
+  .active--nav {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .menu--icon i {
+    display: inline-block;
+  }
+}
+
+/* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
+
+/* clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); */

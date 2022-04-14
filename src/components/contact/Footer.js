@@ -43,120 +43,122 @@ const FooterComponent = () => {
             </ul>
           </div>
 
-          <ul>
-            <li>
-              <h6>INFORMATION</h6>
-            </li>
-            <li>
-              <p className="footer-par">New Collection</p>
-            </li>
-            <li>
-              <p className="footer-par">About Store</p>
-            </li>
-            <li>
-              <p className="footer-par">Contact Us</p>
-            </li>
-            <li>
-              <p className="footer-par">Latest News</p>
-            </li>
-            <li>
-              <p className="footer-par">Our Sitemap</p>
-            </li>
-            <li>
-              <p className="footer-par">Orders History</p>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <h6>FOOTER MENU</h6>
-            </li>
-            <li>
-              <p className="footer-par">Instagram profile</p>
-            </li>
-            <li>
-              <p className="footer-par">New Collection</p>
-            </li>
-            <li>
-              <p className="footer-par">Contact Us</p>
-            </li>
-            <li>
-              <p className="footer-par">Latest News</p>
-            </li>
-            <li>
-              <p className="footer-par">Our Sitemap</p>
-            </li>
-            <li>
-              <p className="footer-par">Orders History</p>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <h6>USEFULL LINKS</h6>
-            </li>
-            <li>
-              <p className="footer-par">Instagram profile</p>
-            </li>
-            <li>
-              <p className="footer-par">New Collection</p>
-            </li>
-            <li>
-              <p className="footer-par">Contact Us</p>
-            </li>
-            <li>
-              <p className="footer-par">Latest News</p>
-            </li>
-            <li>
-              <p className="footer-par">Our Sitemap</p>
-            </li>
-            <li>
-              <p className="footer-par">Orders History</p>
-            </li>
-          </ul>
+          <div className="footer--inside">
+            <ul>
+              <li>
+                <h6>INFORMATION</h6>
+              </li>
+              <li>
+                <p className="footer-par">New Collection</p>
+              </li>
+              <li>
+                <p className="footer-par">About Store</p>
+              </li>
+              <li>
+                <p className="footer-par">Contact Us</p>
+              </li>
+              <li>
+                <p className="footer-par">Latest News</p>
+              </li>
+              <li>
+                <p className="footer-par">Our Sitemap</p>
+              </li>
+              <li>
+                <p className="footer-par">Orders History</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <h6>FOOTER MENU</h6>
+              </li>
+              <li>
+                <p className="footer-par">Instagram profile</p>
+              </li>
+              <li>
+                <p className="footer-par">New Collection</p>
+              </li>
+              <li>
+                <p className="footer-par">Contact Us</p>
+              </li>
+              <li>
+                <p className="footer-par">Latest News</p>
+              </li>
+              <li>
+                <p className="footer-par">Our Sitemap</p>
+              </li>
+              <li>
+                <p className="footer-par">Orders History</p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <h6>USEFULL LINKS</h6>
+              </li>
+              <li>
+                <p className="footer-par">Instagram profile</p>
+              </li>
+              <li>
+                <p className="footer-par">New Collection</p>
+              </li>
+              <li>
+                <p className="footer-par">Contact Us</p>
+              </li>
+              <li>
+                <p className="footer-par">Latest News</p>
+              </li>
+              <li>
+                <p className="footer-par">Our Sitemap</p>
+              </li>
+              <li>
+                <p className="footer-par">Orders History</p>
+              </li>
+            </ul>
 
-          <ul>
-            <li>
-              <h6>ABOUT THE STORE</h6>
-            </li>
-            <li>
-              <p className="footer--par2">
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and layouts and visual mockups.
-              </p>
-            </li>
-            <li>
-              <span className="footer--span">www.company.com</span>
-            </li>
-            <li>
-              <ul className="social--media">
-                <li>
-                  <img src={faceBook} alt="face--book" />
-                </li>
-                <li>
-                  <img src={instagram} alt="instaram" />
-                </li>
-                <li>
-                  <img src={twitter} alt="twitter" />
-                </li>
-                <li>
-                  <img src={linkedin} alt="linkedin" />
-                </li>
-                <li>
-                  <img src={youtube} alt="youtube" />
-                </li>
-              </ul>
-            </li>
+            <ul>
+              <li>
+                <h6>ABOUT THE STORE</h6>
+              </li>
+              <li>
+                <p className="footer--par2">
+                  Lorem ipsum is placeholder text commonly used in the graphic,
+                  print, and layouts and visual mockups.
+                </p>
+              </li>
+              <li>
+                <span className="footer--span">www.company.com</span>
+              </li>
+              <li>
+                <ul className="social--media">
+                  <li>
+                    <img src={faceBook} alt="face--book" />
+                  </li>
+                  <li>
+                    <img src={instagram} alt="instaram" />
+                  </li>
+                  <li>
+                    <img src={twitter} alt="twitter" />
+                  </li>
+                  <li>
+                    <img src={linkedin} alt="linkedin" />
+                  </li>
+                  <li>
+                    <img src={youtube} alt="youtube" />
+                  </li>
+                </ul>
+              </li>
 
-            <li>
-              <div className="choose--language">
-                <img src={global} alt="global" />
-                <select name="language">
-                  <option value="eng">English</option>
-                  <option value="uz">Uzbek</option>
-                  <option value="ru">Russian</option>
-                </select>
-              </div>
-            </li>
-          </ul>
+              <li>
+                <div className="choose--language">
+                  <img src={global} alt="global" />
+                  <select name="language">
+                    <option value="eng">English</option>
+                    <option value="uz">Uzbek</option>
+                    <option value="ru">Russian</option>
+                  </select>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>

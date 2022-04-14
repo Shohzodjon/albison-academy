@@ -42,3 +42,21 @@
   margin: 1rem 0;
   text-align: center;
 }
+
+@media screen and (max-width: 725px) {
+  .service--cart {
+    width: 32%;
+    padding: 1rem;
+  }
+  .corousel--img {
+    height: 14rem;
+  }
+  .corousel--img > img {
+    width: 8rem;
+  }
+}
+@media screen and (max-width: 590px) {
+  .corousel--img > img {
+    width: 6rem;
+  }
+}

@@ -41,7 +41,7 @@ const Service = () => {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <div className="row">
+              <div className="row flex--wrapp">
                 <div className="col-4 service--cart">
                   <div className="section__corusel-img">
                     <div className="corousel--img">

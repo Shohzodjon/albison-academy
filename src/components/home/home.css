@@ -6,6 +6,7 @@
 }
 .home--flex {
   display: flex;
+  flex-direction: row;
   align-items: center;
   column-gap: 5rem;
 }
@@ -65,4 +66,30 @@
 }
 .home--brends img {
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .home--flex {
+    flex-direction: column;
+  }
+  .home--img {
+    width: 55rem;
+    margin-top: 5rem;
+  }
+  .home--img img {
+    width: 100%;
+  }
+  .home--btn1,
+  .home--btn2 {
+    padding: 1.2rem 2.5rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+}
+@media screen and (max-width: 590px) {
+  .home--brends ul {
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    row-gap: 3rem;
+  }
 }

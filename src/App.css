@@ -35,4 +35,19 @@
 .app {
   width: 100vw;
   overflow-x: hidden;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 1015px) {
+  .containers {
+    width: 90%;
+  }
+  html {
+    font-size: 60%;
+  }
+}
+@media screen and (max-width: 920px) {
+  html {
+    font-size: 55%;
+  }
 }

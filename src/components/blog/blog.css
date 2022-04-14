@@ -24,3 +24,18 @@
   width: 100%;
   height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .blog--flex {
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  .blog--img {
+    width: 50rem;
+  }
+}
+@media screen and (max-width: 590px) {
+  .blog--img {
+    width: 30rem;
+  }
+}
