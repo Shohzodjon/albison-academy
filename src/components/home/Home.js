@@ -22,8 +22,8 @@ const Home = () => {
               mockups.
             </p>
             <div className="home--btn--group">
-              <button className="home--btn1 btn">Get started</button>
-              <button className="home--btn2 btn">
+              <button className="home--btn1 btns">Get started</button>
+              <button className="home--btn2 btns">
                 <img src={play} alt="play" /> <span>Watch Video</span>
               </button>
             </div>

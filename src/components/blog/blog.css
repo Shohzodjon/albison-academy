@@ -25,17 +25,65 @@
   height: 100%;
 }
 
-@media screen and (max-width: 768px) {
+/* ================= MEDIA QUERY ================ */
+
+@media only screen and (min-width: 0) and (max-width: 576px) {
   .blog--flex {
     flex-direction: column;
-    margin-top: 4rem;
+    row-gap: 2rem;
   }
   .blog--img {
-    width: 50rem;
+    width: 100%;
+    height: auto;
+  }
+  .blog--img > img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .blog--info ul {
+    row-gap: 0.5rem;
+  }
+  .blog--info > ul > li:first-child {
+    margin-bottom: 0.8rem;
   }
 }
-@media screen and (max-width: 590px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576.1px) and (max-width: 768px) {
+  .blog--flex {
+    flex-direction: column;
+    row-gap: 5rem;
+  }
   .blog--img {
-    width: 30rem;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+  }
+  .blog--img > img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .blog--info ul {
+    row-gap: 0.5rem;
+  }
+  .blog--info > ul > li:first-child {
+    margin-bottom: 0.8rem;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .blog--img {
+    width: 52%;
+  }
+  .blog--info {
+    width: 48%;
+  }
+  .blog--info ul {
+    row-gap: 0.9rem;
+    width: 100%;
+  }
+  .blog--info > ul > li:first-child {
+    margin-bottom: 1rem;
   }
 }

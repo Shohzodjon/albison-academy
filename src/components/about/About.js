@@ -20,7 +20,7 @@ const About = () => {
               print, and publishing industries for previewing layouts and visual
               mockups.
             </p>
-            <button className="btn about--btn">Learn More</button>
+            <button className="btns about--btn">Learn More</button>
           </div>
         </div>
       </div>

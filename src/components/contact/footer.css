@@ -91,27 +91,98 @@
   outline: none;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 0) and (max-width: 576px) {
   .footer--flex {
+    gap: 1.5rem;
     flex-direction: column;
   }
-  .footer--inside {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-  }
+
   .footer--right {
     width: 100%;
+    gap: 1rem;
+  }
+  .footer--inside {
+    width: 100%;
+    gap: 0.9rem;
+    flex-wrap: wrap;
   }
   .footer--inside > ul {
-    width: 30%;
+    width: auto;
   }
-  .choose--language {
-    margin-top: 2rem;
+  .footer--section h6 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  .footer--par2 {
+    font-weight: 450;
+    font-size: 1.2rem;
+    line-height: 10px;
+  }
+  .footer--inside > ul > li:first-child {
+    margin-bottom: 1rem;
+  }
+  .footer--inside > ul > li {
+    margin: 1rem 0;
   }
 }
-@media screen and (max-width: 590px) {
-  .blog--img {
-    width: 50rem;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576.1px) and (max-width: 768px) {
+  .footer--flex {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .footer--right {
+    width: 100%;
+    gap: 1rem;
+  }
+  .footer--inside {
+    width: 100%;
+    gap: 0.9rem;
+  }
+  .footer--section h6 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  .footer--par2 {
+    font-weight: 450;
+    font-size: 1.2rem;
+    line-height: 10px;
+  }
+  .footer--inside > ul > li:first-child {
+    margin-bottom: 1rem;
+  }
+  .footer--inside > ul > li {
+    margin: 1rem 0;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .footer--flex {
+    gap: 1.5rem;
+  }
+
+  .footer--right {
+    width: 30%;
+    gap: 1rem;
+  }
+  .footer--inside {
+    width: 68%;
+    gap: 0.9rem;
+  }
+  .footer--section h6 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  .footer--par2 {
+    font-weight: 450;
+    font-size: 1.2rem;
+    line-height: 10px;
+  }
+  .footer--inside > ul > li:first-child {
+    margin-bottom: 1rem;
+  }
+  .footer--inside > ul > li {
+    margin: 1rem 0;
   }
 }

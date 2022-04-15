@@ -9,7 +9,7 @@ import "./service.css";
 const Service = () => {
   return (
     <section className="section__corusel" id="services">
-      <div className="container">
+      <div className="containers">
         <div
           id="carouselExampleIndicators"
           className="carousel slide"
@@ -41,8 +41,8 @@ const Service = () => {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <div className="row flex--wrapp">
-                <div className="col-4 service--cart">
+              <div className="row">
+                <div className="service--cart">
                   <div className="section__corusel-img">
                     <div className="corousel--img">
                       <img src={img5} alt="..." />
@@ -56,24 +56,10 @@ const Service = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-4 service--cart">
+                <div className="service--cart">
                   <div className="section__corusel-img">
                     <div className="corousel--img">
                       <img src={img1} alt="..." />
-                    </div>
-
-                    <h4>Naxly as the Winners in Global Agency Awards</h4>
-                    <p>
-                      "Lorem ipsum is placeholder text commonly used in print,
-                      and publishing industries for previewing layouts and
-                      visual mockups.",
-                    </p>
-                  </div>
-                </div>
-                <div className="col-4 service--cart">
-                  <div className="section__corusel-img">
-                    <div className="corousel--img">
-                      <img src={img2} alt="..." />
                     </div>
 
                     <h4>Naxly as the Winners in Global Agency Awards</h4>
@@ -88,7 +74,7 @@ const Service = () => {
             </div>
             <div className="carousel-item">
               <div className="row">
-                <div className="col-4 service--cart">
+                <div className="service--cart">
                   <div className="section__corusel-img">
                     <div className="corousel--img">
                       <img src={img3} alt="..." />
@@ -102,7 +88,7 @@ const Service = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-4 service--cart">
+                <div className="service--cart">
                   <div className="section__corusel-img">
                     <div className="corousel--img">
                       <img src={img4} alt="..." />
@@ -116,25 +102,11 @@ const Service = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-4 service--cart">
-                  <div className="section__corusel-img">
-                    <div className="corousel--img">
-                      <img src={img5} alt="..." />
-                    </div>
-
-                    <h4>Naxly as the Winners in Global Agency Awards</h4>
-                    <p>
-                      "Lorem ipsum is placeholder text commonly used in print,
-                      and publishing industries for previewing layouts and
-                      visual mockups.",
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="carousel-item">
               <div className="row">
-                <div className="col-4 service--cart">
+                <div className="service--cart">
                   <div className="section__corusel-img">
                     <div className="corousel--img">
                       <img src={img1} alt="..." />
@@ -148,25 +120,11 @@ const Service = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-4 service--cart">
+                <div className="service--cart">
                   <div className="section__corusel-img">
                     <div className="corousel--img">
                       <img src={img2} alt="..." />
                     </div>
-                    <h4>Naxly as the Winners in Global Agency Awards</h4>
-                    <p>
-                      "Lorem ipsum is placeholder text commonly used in print,
-                      and publishing industries for previewing layouts and
-                      visual mockups.",
-                    </p>
-                  </div>
-                </div>
-                <div className="col-4 service--cart">
-                  <div className="section__corusel-img">
-                    <div className="corousel--img">
-                      <img src={img3} alt="..." />
-                    </div>
-
                     <h4>Naxly as the Winners in Global Agency Awards</h4>
                     <p>
                       "Lorem ipsum is placeholder text commonly used in print,

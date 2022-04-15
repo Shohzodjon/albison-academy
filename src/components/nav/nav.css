@@ -18,7 +18,7 @@
   align-items: center;
 }
 .logo img {
-  width: 4.404rem;
+  width: 4.4rem;
   height: 5.7rem;
 }
 .logo h3 {
@@ -27,10 +27,33 @@
   line-height: 3.1rem;
   color: #3a68b8;
 }
-.nav--flex ul {
+.nav--flex .nav--list {
   display: flex;
   align-items: center;
   column-gap: 4rem;
+}
+.nav--flex .second--nav {
+  position: fixed;
+  top: 0%;
+  padding: 5rem 5rem;
+  right: 0;
+  width: 245px;
+  height: 100%;
+  background: var(--bg-nav);
+  transition: clip-path 0.5s linear;
+
+  /*  active   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
+}
+
+.second--nav--active {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.nav--flex .second--nav > li {
+  margin-bottom: 3rem;
+}
+
+.nav--flex .second--nav > li > a {
+  font-size: 2rem;
 }
 .nav--flex a {
   font-weight: 500;
@@ -50,44 +73,77 @@
   align-items: center;
 }
 .menu--icon i {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #fff;
   display: none;
+  cursor: pointer;
 }
-.close--btn {
+.second--nav .close--btn {
+  color: #000;
+  font-size: 2.2rem;
+  display: block;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
   color: #fff;
-  font-size: 2.5rem;
-  display: none;
+  cursor: pointer;
 }
-@media screen and (max-width: 920px) {
-  .nav--flex ul {
-    position: fixed;
-    top: 4.5rem;
-    right: 0;
-    flex-direction: column;
-    gap: 2rem;
-    width: 200px;
-    background: var(--bg-nav);
-    height: 100%;
-    padding: 1.5rem 3rem;
-    align-items: flex-start;
-    /* clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); */
-    transition: clip-path 0.4s linear;
-  }
-  .close--btn {
-    display: block;
-    position: fixed;
-    top: 4.3rem;
-    right: 2rem;
-  }
-  .active--nav {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+@media only screen and (min-width: 0) and (max-width: 576px) {
+  .nav--flex .nav--list {
+    display: none;
   }
   .menu--icon i {
-    display: inline-block;
+    display: block;
+  }
+  .logo h3 {
+    display: none;
+  }
+  .nav--btn {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
   }
 }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576.1px) and (max-width: 768px) {
+  .nav--flex .nav--list {
+    display: none;
+  }
+  .menu--icon i {
+    display: block;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .nav--flex .nav--list {
+    display: none;
+  }
+  .menu--icon i {
+    display: block;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .logo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .logo img {
+    width: 4rem;
+    height: 5.7rem;
+  }
+  .logo h3 {
+    font-size: 1.9rem;
+  }
+  .nav--btn {
+    padding: 1.4rem 2.8rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 
-/* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
-
-/* clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); */
+  .nav--flex .second--nav {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+  }
+}

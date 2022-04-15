@@ -11,8 +11,9 @@
 .containers {
   width: 83%;
   margin: 0 auto;
+  max-width: 1350px;
 }
-.btn {
+.btns {
   background: var(--btn-color);
   border-radius: var(--border-radius);
   border: none;
@@ -38,16 +39,43 @@
   max-width: 1200px;
 }
 
-@media screen and (max-width: 1015px) {
-  .containers {
-    width: 90%;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and(min-width:0px) and (max-width: 576px) {
+  html {
+    font-size: 55%;
   }
+  .containers {
+    width: 89%;
+  }
+  .general--heading {
+    font-size: 1rem;
+    line-height: 140%;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 578px) and (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .containers {
+    width: 88%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
   html {
     font-size: 60%;
   }
+  .containers {
+    width: 85%;
+  }
 }
-@media screen and (max-width: 920px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
   html {
-    font-size: 55%;
+    font-size: 62.5%;
+  }
+  .containers {
+    width: 83%;
   }
 }
