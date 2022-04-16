@@ -147,3 +147,8 @@
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
   }
 }
+@media only screen and (min-width: 1201px) {
+  .nav--flex .second--nav {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+  }
+}
